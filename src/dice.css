@@ -1,0 +1,40 @@
+
+
+.würfel{
+    color: #dfcd2b;
+    border-radius: 3px;
+    text-shadow: 4px 5px 3px black;
+    font-size: xx-large;
+    font-family: comic;
+    margin:30px;
+    /* background-color: #353638; */
+  align-content: space-around ;
+  animation: würfel 1.5s ease-in-out 0s 1 both;}
+  
+  
+  /* }
+  .würfel :hover{
+    transform:scale(1.2)
+    
+
+  } */
+  
+  .fas{
+    color:#dfcd2b;
+   /* font-size: 400px; */
+   font-size: 6rem ;
+  }
+
+  @keyframes würfel{
+    0%{
+      transform: translate(-60vw,0);
+
+
+
+  }
+  100%{
+      transform:translate(0,0);
+  }
+}
+
+  
